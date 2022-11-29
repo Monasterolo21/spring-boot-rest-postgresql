@@ -15,6 +15,7 @@
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="Hibernate" />
         <datasource-mapping>
+          <factory-entry name="entityManagerFactory" />
           <factory-entry name="spring-boot-rest-postgresql" value="f11fc8a0-11b2-48ff-bed0-6844aa5dff4a" />
         </datasource-mapping>
         <naming-strategy-map />

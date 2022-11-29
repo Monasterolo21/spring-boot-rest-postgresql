@@ -9,6 +9,8 @@ Position in project directory root
 
 docker-compose build && docker-compose up 
 
+docker compose up is used to start the application
+
 http://localhost:8080/ or using Postman:
  get: http://localhost:8080/api/v1/customers
  

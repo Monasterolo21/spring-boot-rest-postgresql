@@ -1,4 +1,7 @@
-FROM openjdk:13-alpine
+FROM openjdk:8-alpine
+
+#for M1 use this:
+#FROM --platform=linux/amd64 amazonlinux:2018.03
 RUN addgroup -S spring && adduser -S spring -G spring
 VOLUME /tmp
 EXPOSE 8080
